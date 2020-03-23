@@ -568,6 +568,12 @@
                                     jcr:primaryType="jnt:translation"
                                     jcr:title="event content template"/>
                             <pagecontent jcr:primaryType="jnt:contentList">
+                     <area columnsType="predefinedColumns"
+                           grid="3_3_3_3"
+                           gridLayout="full-width"
+                           jcr:mixinTypes="bootstrap3mix:createContainer bootstrap3mix:createRow bootstrap3mix:predefinedColumns"
+                           jcr:primaryType="bootstrap3nt:columns"/>
+                  </pagecontent>
                                 <area columnsType="predefinedColumns"
                            grid="9_3"
                            gridLayout="full-width"
